@@ -2048,6 +2048,8 @@ export interface Dict {
   'chat.send': string;
   'chat.stop': string;
   'chat.removeAria': string;
+  'chat.mentionButtonTitle': string;
+  'chat.mentionButtonAria': string;
   'chat.example1Title': string;
   'chat.example1Tag': string;
   'chat.example1Prompt': string;
