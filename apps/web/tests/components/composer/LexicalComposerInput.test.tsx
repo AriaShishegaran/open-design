@@ -110,6 +110,39 @@ describe('LexicalComposerInput', () => {
     expect(ref.current?.getText()).toBe('@Deck Builder ');
   });
 
+  it('insertText replaces the active selection and reports the new mention trigger', async () => {
+    const { ref, getByTestId, onTrigger } = setup({ draft: 'hello world' });
+    await waitFor(() => expect(ref.current?.getText()).toBe('hello world'));
+    const editor = liveEditor(getByTestId('chat-composer-input'));
+
+    act(() => {
+      editor.update(
+        () => {
+          const paragraph = $getRoot().getFirstChild();
+          const text = $isElementNode(paragraph)
+            ? paragraph.getFirstChild()
+            : null;
+          if ($isTextNode(text)) text.select(6, 11);
+        },
+        { discrete: true },
+      );
+    });
+
+    act(() => {
+      ref.current?.insertText('@');
+    });
+
+    await waitFor(() => expect(ref.current?.getText()).toBe('hello @'));
+    await waitFor(() =>
+      expect(onTrigger).toHaveBeenLastCalledWith(
+        expect.objectContaining({
+          mention: { q: '' },
+          slash: null,
+        }),
+      ),
+    );
+  });
+
   it('clear() empties the editor', async () => {
     const { ref } = setup({ draft: 'something' });
     await waitFor(() => expect(ref.current?.getText()).toBe('something'));

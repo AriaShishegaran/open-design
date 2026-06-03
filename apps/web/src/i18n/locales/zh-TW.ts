@@ -1312,6 +1312,8 @@ export const zhTW: Dict = {
   'chat.send': '傳送',
   'chat.stop': '停止',
   'chat.removeAria': '移除 {name}',
+  'chat.mentionButtonTitle': '提及檔案',
+  'chat.mentionButtonAria': '開啟檔案提及選擇器',
   'chat.example1Title': '編輯風路演 PPT',
   'chat.example1Tag': '雜誌',
   'chat.example1Prompt':

@@ -825,6 +825,8 @@ export const ja: Dict = {
   'chat.send': '送信',
   'chat.stop': '停止',
   'chat.removeAria': '{name} を削除',
+  'chat.mentionButtonTitle': 'ファイルにメンション',
+  'chat.mentionButtonAria': 'ファイルメンション選択を開く',
   'chat.example1Title': '編集ピッチデッキ',
   'chat.example1Tag': '雑誌',
   'chat.example1Prompt':

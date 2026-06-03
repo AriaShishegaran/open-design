@@ -827,6 +827,8 @@ export const esES: Dict = {
   'chat.send': 'Enviar',
   'chat.stop': 'Detener',
   'chat.removeAria': 'Quitar {name}',
+  'chat.mentionButtonTitle': 'Mencionar un archivo',
+  'chat.mentionButtonAria': 'Abrir selector de menciones de archivos',
   'chat.example1Title': 'Pitch deck editorial',
   'chat.example1Tag': 'Revista',
   'chat.example1Prompt':

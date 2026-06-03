@@ -1050,6 +1050,8 @@ export const id: Dict = {
   'chat.send': 'Kirim',
   'chat.stop': 'Stop',
   'chat.removeAria': 'Hapus {name}',
+  'chat.mentionButtonTitle': 'Mention file',
+  'chat.mentionButtonAria': 'Buka pemilih mention file',
   'chat.example1Title': 'Pitch editorial',
   'chat.example1Tag': 'Majalah',
   'chat.example1Prompt': 'Buat pitch deck bergaya majalah untuk seed round startup AI.',

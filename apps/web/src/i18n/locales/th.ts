@@ -893,6 +893,8 @@ export const th: Dict = {
   'chat.send': 'ส่ง',
   'chat.stop': 'หยุด',
   'chat.removeAria': 'ลบ {name}',
+  'chat.mentionButtonTitle': 'กล่าวถึงไฟล์',
+  'chat.mentionButtonAria': 'เปิดตัวเลือกการกล่าวถึงไฟล์',
   'chat.example1Title': 'ตัวอย่างคำสั่งบรรณาธิการ',
   'chat.example1Tag': 'นิตยสาร',
   'chat.example1Prompt': 'สไลด์บทความบรรณาธิการ 10 หน้า จัดวางแบบคลาสสิค สไตล์นิตยสารและเพิ่มตัวหนังสือใหญ่ๆ',

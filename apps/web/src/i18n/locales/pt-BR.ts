@@ -959,6 +959,8 @@ export const ptBR: Dict = {
   'chat.send': 'Enviar',
   'chat.stop': 'Parar',
   'chat.removeAria': 'Remover {name}',
+  'chat.mentionButtonTitle': 'Mencionar um arquivo',
+  'chat.mentionButtonAria': 'Abrir seletor de menções de arquivos',
   'chat.example1Title': 'Pitch deck editorial',
   'chat.example1Tag': 'Revista',
   'chat.example1Prompt':

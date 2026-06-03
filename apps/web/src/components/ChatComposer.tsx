@@ -2098,38 +2098,11 @@ export const ChatComposer = forwardRef<ChatComposerHandle, Props>(
               <button
                 type="button"
                 className="icon-btn"
+                onMouseDown={(event) => {
+                  event.preventDefault();
+                }}
                 onClick={() => {
-                  const ta = textareaRef.current;
-                  if (!ta) return;
-                  // Use both selectionStart and selectionEnd so that any
-                  // selected text is replaced by @, matching the behavior
-                  // of typing @ into the textarea.
-                  const { selectionStart, selectionEnd } = ta;
-                  const before = draft.slice(0, selectionStart);
-                  const after = draft.slice(selectionEnd);
-                  const next = before + '@' + after;
-                  setDraft(next);
-                  // Recompute mention and slash from the updated draft,
-                  // exactly as handleChange does on every keystroke.
-                  const pos = selectionStart + 1;
-                  const textBefore = next.slice(0, pos);
-                  const mentionM = /(^|\\s)@([^\\s@]*)$/.exec(textBefore);
-                  if (mentionM) {
-                    setMention({ q: mentionM[2] ?? '', cursor: pos });
-                  } else {
-                    setMention(null);
-                  }
-                  const slashM = /^\/([^\s/]*)$/.exec(textBefore);
-                  if (slashM) {
-                    setSlash({ q: slashM[1] ?? '', cursor: pos });
-                    setSlashIndex(0);
-                  } else {
-                    setSlash(null);
-                  }
-                  requestAnimationFrame(() => {
-                    ta.focus();
-                    ta.setSelectionRange(pos, pos);
-                  });
+                  editorRef.current?.insertText('@');
                 }}
                 title={t('chat.mentionButtonTitle')}
                 aria-label={t('chat.mentionButtonAria')}

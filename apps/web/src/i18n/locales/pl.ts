@@ -938,6 +938,8 @@ export const pl: Dict = {
   'chat.send': 'Wyślij',
   'chat.stop': 'Zatrzymaj',
   'chat.removeAria': 'Usuń {name}',
+  'chat.mentionButtonTitle': 'Wspomnij plik',
+  'chat.mentionButtonAria': 'Otwórz selektor wzmianek o plikach',
   'chat.example1Title': 'Prezentacja redakcyjna (Pitch deck)',
   'chat.example1Tag': 'Magazyn',
   'chat.example1Prompt':

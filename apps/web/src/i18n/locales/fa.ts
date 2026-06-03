@@ -960,6 +960,8 @@ export const fa: Dict = {
   'chat.send': 'ارسال',
   'chat.stop': 'توقف',
   'chat.removeAria': 'حذف {name}',
+  'chat.mentionButtonTitle': 'اشاره به فایل',
+  'chat.mentionButtonAria': 'باز کردن انتخاب‌گر اشاره به فایل',
   'chat.example1Title': 'ارائه سردبیری',
   'chat.example1Tag': 'مجله',
   'chat.example1Prompt':

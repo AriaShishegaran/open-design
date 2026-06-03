@@ -927,6 +927,8 @@ export const tr: Dict = {
   'chat.send': 'Gönder',
   'chat.stop': 'Durdur',
   'chat.removeAria': '{name}’ı sil',
+  'chat.mentionButtonTitle': 'Dosyadan bahset',
+  'chat.mentionButtonAria': 'Dosya bahsi seçicisini aç',
   'chat.example1Title': 'Editörlük sunum dosyası',
   'chat.example1Tag': 'Magazin',
   'chat.example1Prompt':

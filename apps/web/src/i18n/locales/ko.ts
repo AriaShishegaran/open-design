@@ -938,6 +938,8 @@ export const ko: Dict = {
   'chat.send': '전송',
   'chat.stop': '중지',
   'chat.removeAria': '{name} 제거',
+  'chat.mentionButtonTitle': '파일 멘션',
+  'chat.mentionButtonAria': '파일 멘션 선택기 열기',
   'chat.example1Title': '에디토리얼 피치 덱',
   'chat.example1Tag': '매거진',
   'chat.example1Prompt':

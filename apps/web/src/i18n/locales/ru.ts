@@ -959,6 +959,8 @@ export const ru: Dict = {
   'chat.send': 'Отправить',
   'chat.stop': 'Остановить',
   'chat.removeAria': 'Удалить {name}',
+  'chat.mentionButtonTitle': 'Упомянуть файл',
+  'chat.mentionButtonAria': 'Открыть выбор упоминания файла',
   'chat.example1Title': 'Редакционная презентация',
   'chat.example1Tag': 'Журнал',
   'chat.example1Prompt':

@@ -1473,6 +1473,8 @@ export const fr: Dict = {
   'chat.send': 'Envoyer',
   'chat.stop': 'Arrêter',
   'chat.removeAria': 'Retirer {name}',
+  'chat.mentionButtonTitle': 'Mentionner un fichier',
+  'chat.mentionButtonAria': 'Ouvrir le sélecteur de mentions de fichiers',
   'chat.example1Title': 'Pitch deck éditorial',
   'chat.example1Tag': 'Magazine',
   'chat.example1Prompt': 'Un pitch deck éditorial de 10 diapositives pour un studio de design levant des fonds — mise en page grille suisse, titres avec empattement surdimensionnés et lettrines, numéros de section en monospace, généreux espaces négatifs, et diapositives photo pleine page entrecoupées de diapos riches en texte. Couverture, vision, marché, produit, traction, équipe, levée de fonds, contact.',

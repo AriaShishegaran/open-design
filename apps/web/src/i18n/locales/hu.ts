@@ -938,6 +938,8 @@ export const hu: Dict = {
   'chat.send': 'Küldés',
   'chat.stop': 'Leállítás',
   'chat.removeAria': '{name} eltávolítása',
+  'chat.mentionButtonTitle': 'Fájl megemlítése',
+  'chat.mentionButtonAria': 'Fájlmegemlítő választó megnyitása',
   'chat.example1Title': 'Magazinszerű pitch deck',
   'chat.example1Tag': 'Magazin',
   'chat.example1Prompt':

@@ -938,6 +938,8 @@ export const ar: Dict = {
   'chat.send': 'إرسال',
   'chat.stop': 'إيقاف',
   'chat.removeAria': 'إزالة {name}',
+  'chat.mentionButtonTitle': 'الإشارة إلى ملف',
+  'chat.mentionButtonAria': 'فتح منتقي الإشارة إلى الملفات',
   'chat.example1Title': 'عرض تقديمي تحريري',
   'chat.example1Tag': 'مجلة',
   'chat.example1Prompt':

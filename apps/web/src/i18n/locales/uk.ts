@@ -960,6 +960,8 @@ export const uk: Dict = {
   'chat.send': 'Надіслати',
   'chat.stop': 'Зупинити',
   'chat.removeAria': 'Видалити {name}',
+  'chat.mentionButtonTitle': 'Згадати файл',
+  'chat.mentionButtonAria': 'Відкрити вибір згадки файлу',
   'chat.example1Title': 'Редакційна піч-дека',
   'chat.example1Tag': 'Журнал',
   'chat.example1Prompt':
